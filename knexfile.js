@@ -2,6 +2,7 @@ module.exports = {
 
   client: 'postgresql',
   connection: {
+    Host: 'ec2-54-224-124-241.compute-1.amazonaws.com',
     database: 'd44arciics89r9',
     Port: '5432',
     user: 'd44arciics89r9',
