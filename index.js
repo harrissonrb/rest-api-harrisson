@@ -11,6 +11,5 @@ consign()
 
 app.db = db
 
-app.listen(3000, () => {
-    console.log('Back-end start')
-})
+const porta = process.env.PORT || 8080;
+app.listen(porta)
